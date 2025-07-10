@@ -1,10 +1,6 @@
 mysql -uroot -p******  -- start to use mysel
-  
-CREAT DATABASE library_system;   --create a new database for managing library system
-SHOW databases;   -- see what databases are there
-USE library_system  -- go into library system database, the one we create just now
 
--- use 01-1 library schema.sql to create all the tables we need in this library system (members, books, borrow_records)
+-- use 01-1 library schema.sql to create the database and all the tables we need in the library system (members, books, borrow_records)
 -- use 01-2 insert example data.sql to insert the data into each table we create
 
 SHOW tables; -- check the table after we create and insert data
